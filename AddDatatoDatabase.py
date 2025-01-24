@@ -4,13 +4,13 @@ from firebase_admin import db
 
 cred = credentials.Certificate("serviceAccountKey.json")
 firebase_admin.initialize_app(cred, {
-    'databaseURL': "https://face-attendance-76889-default-rtdb.firebaseio.com/"
+    'databaseURL': "Firebase Database URL"
 })
 
 ref = db.reference('Students')
 
 data = {
-    "0928CS201059":
+    "0888CS205461059":
         {
             "name": "Naveen",
             "Branch": "CSE",
@@ -19,7 +19,7 @@ data = {
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
         },
-    "0928CS201032":
+    "09885CS20105632":
         {
             "name": "Dushyant",
             "Branch": "CSE",
@@ -28,7 +28,7 @@ data = {
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
         },
-    "0928CS201039":
+    "09285335CS20159":
         {
             "name": "Himanshu",
             "Branch": "CSE",
@@ -37,7 +37,7 @@ data = {
             "year": 4,
             "last_attendance_time": "2022-12-11 00:54:34"
         },
-    "0928CS201075":
+    "0928CS205656575":
         {
             "name": "Priyansh",
             "Branch": "CSE",
